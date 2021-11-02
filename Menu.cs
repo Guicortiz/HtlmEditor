@@ -18,12 +18,12 @@ namespace HtlmEditor
 
         public static void DrawScreen()
         {
-            Header(50);
+            Line(50);
             Body(50, 15);
-            Header(50);
+            Line(50);
         }
 
-        public static void Header(int width)
+        public static void Line(int width)
         {
             Console.Write("+");
             for (int i = 0; i <= width; i++) Console.Write("-");
@@ -46,8 +46,8 @@ namespace HtlmEditor
         {
             Console.SetCursorPosition(3, 2);
             Console.WriteLine("Htlm Editor");
-            Console.SetCursorPosition(3, 3);
-            Console.WriteLine("===========");
+            Console.SetCursorPosition(0, 3);
+            Line(50);
             Console.SetCursorPosition(3, 4);
             Console.WriteLine("Select one of the following options:");
             Console.SetCursorPosition(3, 6);
@@ -64,7 +64,7 @@ namespace HtlmEditor
         {
             switch (option)
             {
-                case 1: Console.WriteLine("Editor"); break;
+                case 1: Editor.Show(); break;
                 case 2: Console.WriteLine("View"); break;
                 case 0:
                     {
