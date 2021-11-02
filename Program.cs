@@ -6,7 +6,7 @@ namespace HtlmEditor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Menu.Show();
         }
     }
 }

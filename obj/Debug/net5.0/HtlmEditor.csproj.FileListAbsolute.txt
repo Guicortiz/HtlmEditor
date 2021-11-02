@@ -1,0 +1,16 @@
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.exe
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.deps.json
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.runtimeconfig.json
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.runtimeconfig.dev.json
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.dll
+C:\dev\HtlmEditor\bin\Debug\net5.0\ref\HtlmEditor.dll
+C:\dev\HtlmEditor\bin\Debug\net5.0\HtlmEditor.pdb
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.csproj.AssemblyReference.cache
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.AssemblyInfoInputs.cache
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.AssemblyInfo.cs
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.csproj.CoreCompileInputs.cache
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.dll
+C:\dev\HtlmEditor\obj\Debug\net5.0\ref\HtlmEditor.dll
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.pdb
+C:\dev\HtlmEditor\obj\Debug\net5.0\HtlmEditor.genruntimeconfig.cache
