@@ -12,7 +12,9 @@ namespace HtlmEditor
             Console.Clear();
             Console.WriteLine("Visualization mode");
             Menu.Line(50);
+            Console.Write("\n");
             Replace(text);
+            Console.Write("\n");
             Menu.Line(50);
             Console.ReadKey();
             Menu.Show();
@@ -21,7 +23,32 @@ namespace HtlmEditor
         public static void Replace(string text)
         {
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
-            Console.WriteLine(strong);
+            var words = text.Split(' ');
+
+
+            foreach (var word in words)
+            {
+                if (strong.IsMatch(word))
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write(
+                        word.Substring(
+                            word.IndexOf('>') + 1,
+                            (
+                                (word.LastIndexOf('<') - 1) -
+                                word.IndexOf('>')
+                            )
+                        )
+                    );
+                    Console.Write(" ");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.Write(word);
+                    Console.Write(" ");
+                }
+            }
         }
     }
 }
