@@ -13,6 +13,7 @@ namespace HtlmEditor
             WriteOptions();
 
             var option = short.Parse(Console.ReadLine());
+            HandleMenuOption(option);
         }
 
         public static void DrawScreen()
@@ -57,6 +58,22 @@ namespace HtlmEditor
             Console.WriteLine("0 - Exit application");
             Console.SetCursorPosition(3, 11);
             Console.Write("Option:");
+        }
+
+        public static void HandleMenuOption(short option)
+        {
+            switch (option)
+            {
+                case 1: Console.WriteLine("Editor"); break;
+                case 2: Console.WriteLine("View"); break;
+                case 0:
+                    {
+                        Console.Clear();
+                        Environment.Exit(0);
+                        break;
+                    }
+                default: Menu.Show(); break;
+            }
         }
     }
 }
